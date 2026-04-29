@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Mini foro</h2>
+
+<input id="mensaje" placeholder="Escribe algo">
+<button onclick="post()">Enviar</button>
+
+<ul id="chat"></ul>
+
+<script>
+function post(){
+ let texto=document.getElementById("mensaje").value
+ let mensajes=localStorage.getItem("foro")||""
+ mensajes+=texto+"<br>"
+ localStorage.setItem("foro",mensajes)
+ document.getElementById("chat").innerHTML=mensajes
+}
+
+window.onload=function(){
+ document.getElementById("chat").innerHTML=localStorage.getItem("foro")||""
+}
+</script>
+
+</body>
+</html>
