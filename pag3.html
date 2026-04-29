@@ -1,37 +1,35 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
-<body>
+<body background="fondo.jpg">
 
-<canvas id="game" width="300" height="300"></canvas>
+<div align="center">
+<font size="15" color="white">Arroz</font>
+</div>
 
-<script>
-let canvas = document.getElementById("game");
-let ctx = canvas.getContext("2d");
+<br>
+<font size="7">  
+<a href="pag2.html">Mas cosas</a><br>
+<br>
 
-let x = 150;
-let y = 150;
-let dx = 10;
-let dy = 0;
-
-function game(){
-    ctx.clearRect(0,0,300,300);
-
-    x += dx;
-    y += dy;
-
-    ctx.fillStyle="green";
-    ctx.fillRect(x,y,10,10);
-}
-
-document.addEventListener("keydown", function(e){
-    if(e.keyCode==37){dx=-10;dy=0;}
-    if(e.keyCode==38){dx=0;dy=-10;}
-    if(e.keyCode==39){dx=10;dy=0;}
-    if(e.keyCode==40){dx=0;dy=10;}
-});
-
-setInterval(game,150);
-</script>
+<font size="7">
+(data del 29/4/26)<br>
+hola a todos, hoy hablare de las 5 razones de por que el arroz es clave<br>
+<br>
+1:<br>
+es una de las comidas más ricas y mejor del mundo (fuentes: lo soñe)<br>
+<br>
+2:<br>
+Alguien me dijo que el arroz es cancer, pero si me da canser me vuelvo Walter White y vendo mariguana<br>
+<br>
+3:<br>
+es blanco y los blancos tienen mas poder socialmente (segun 4chan o algo haci)<br>
+<br>
+4:<br>
+me da enegia como la moster<br>
+<br>
+5:<br>
+PORQUE SI Y EL ARROZ EL MEJOR Y EL MERENGUE TAMB, AGUANTE EL MERENGUEEEEEEEEEEEEEEEEEEEE Y EL ARROOOOOOZZZZZZZZZZZZZ<br>
+</font>
 
 </body>
 </html>
