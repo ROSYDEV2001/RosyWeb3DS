@@ -1,0 +1,28 @@
+{
+	"name": "car run run",
+	"version": "0.6_01",
+	"description": "run",
+	"id": "",
+	"unique-id": "ebmkikxfg3e",
+	"viewport-width": 640,
+	"viewport-height": 480,
+	"author": "anima12cilam",
+	"email": "",
+	"website": "",
+	"orientations": "landscape",
+	"c2version": "244",
+	"c3version": "r414",
+	"ife": true,
+	"used-plugins": [
+		"TiledBg",
+		"Sprite",
+		"Keyboard",
+		"Text"
+	],
+	"used-behaviors": [
+		"Car",
+		"scrollto",
+		"solid",
+		"Anchor"
+	]
+}
